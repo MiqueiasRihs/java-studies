@@ -7,3 +7,5 @@ RUN apt-get update && \
             export PATH=$PATH:$JAVA_HOME' >> ~/.bashrc
 
 CMD . ~/.bashrc
+
+WORKDIR /home
